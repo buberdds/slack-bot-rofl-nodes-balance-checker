@@ -1,0 +1,25 @@
+{
+  "name": "slack-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "tsx src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@oasisprotocol/client": "^1.3.0",
+    "@oasisprotocol/client-rt": "^1.3.0",
+    "@slack/web-api": "^7.13.0",
+    "bignumber.js": "^9.3.1",
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.2",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
